@@ -76,7 +76,7 @@
     padding-right: 10px;
 }
 #container {
-    width: 1000px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -92,11 +92,55 @@
 }
 
 .item1 img, .item2 img, .item3 img, .mainImg{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 body{
     background-color:rgb(212, 214, 214);
 }
 
+.item1 img, .item2 img, .item3 img{
+    width: 300px;
+    height: 200px;
+    filter: drop-shadow(5px 5px rgb(52, 52, 139));
+}
+
+/* Following is the styling for the form*/
+
+label {
+    float:left;
+    display: block;
+    text-align: right;
+    width:200px;
+    padding-right: 1em;}
+
+     .margin {
+         margin: 5px 0 5px 0px;
+     }
+     form {
+         margin-left: auto;
+         margin-right: auto;
+         width: 500px;
+         display: block;
+         border: 2px solid gray;
+     }
+     input[type=checkbox] {
+         background-color: cadetblue;
+         margin-left: 20px;
+         display:block;
+         color: yellow;
+     }
+
+     #mySubmit{
+         color: blue;
+         width: 100px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     #mySubmit:hover{
+        color: aqua;
+        background-color: black;
+        width: 100px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
